@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class DataReaderClient3 {
 
-
+                ;;;;
         private ApplicationContext ctx = null;
         private ReaderService service = null;
         public DataReaderClient3() {
