@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+                "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <bean name="fileReader2" class="de.boostmedia.FileReader2">
+        <constructor-arg value="srx/myfiled.tx"/>
+    </bean>
+
+    <bean name="readerService" class="de.boostmedia.ReaderService">
+        <constructor-arg ref="fileReader2" />
+    </bean>
+
+
+
+</beans>
